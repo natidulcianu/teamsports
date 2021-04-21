@@ -61,14 +61,14 @@ nav{
 }
 .text{
     width: 800px;
-    margin-top: 185px;
+    margin-top: 160px;
     margin-left: 40px;
     margin-right: 30px;
 }
 .text>p{
     font-size: 25px;
-    color: #000000;
     font-weight: 700;
+    color:  #000;
     text-shadow: 1px 1px 1px #6e6e77;
 }
 .flex-box>span{

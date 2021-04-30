@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fotbal | Nathanael Dulcianu</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Londrina Solid' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/86bd4324fa.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="firstpage.jpg" type="image/icon type">
+    </head>
+    <body>
+        <div class="titlesection">
+            <h1 class="first-title">FOTBAL</h1>
+        </div>
+        <div class="image-flex-cell">
+            <div class="mySlides fade">
+                <img src="ballfotball.jpg" style="width:100%">
+              </div>
+              
+              <div class="mySlides fade">
+                <img src="fotbal.jpg" style="width:100%">
+              </div>
+              
+              <div class="mySlides fade">
+                <img src="minge.jpg" style="width:100%">
+              </div>
+        </div>
+        <p class="description-text"> <span class="important-text">Fotbalul</span> este un sport de echipă ce se dispută între două echipe alcătuite din <span class="important-text">11</span> jucători fiecare. La începutul secolului al XXI-lea era jucat de peste 250 de milioane de jucători în peste 200 de țări, ceea ce îl face cel mai popular sport din lume.
+
+            Se joacă cu <span class="important-text">o minge sferică pe un teren dreptunghiular</span>, acoperit cu iarbă, cu câte o poartă la fiecare capăt. Scopul jocului este de a înscrie <span class="important-text">goluri</span> introducând mingea în poarta adversarului. În afara <span class="important-text">portarului</span>, ceilalți jucători nu se pot folosi de mâini pentru a manevra mingea. Câștigătorul meciului este echipa care a înscris mai multe goluri la încheierea partidei.
+            
+            Originile fotbalului se află undeva în urmă cu peste 2000 de ani. În 2004, forul ce guvernează acest sport la nivel mondial <span class="important-text">FIFA (Fédération Internationale de Football Association)</span> a recunoscut China ca fiind locul de naștere al fotbalului. În jurul anului 200 î.e.n. chinezii jucau un sport asemănător numit <span class="important-text">cuju</span>. Regulile au evoluat cu timpul, astfel ajungându-se la sportul practicat astăzi.
+            
+            În primăvara anului 2001, FIFA informa că peste 240 de milioane de oameni joacă regulat fotbal, în peste 200 de țări de pe întreg globul. Regulile sale simple și echipamentul redus și ieftin, necesar practicării fotbalului au contribuit, fără îndoială, la creșterea popularității sale. În multe zone ale lumii, fotbalul naște pasiuni enorme și joacă un rol foarte important în viața fanilor, a comunităților locale și chiar a națiunilor; este deseori numit cel mai popular sport din lume. Este recunoscut în multe țări drept: <span class="important-text">sportul rege</span>.
+        </p>
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 3000);
+            } 
+            </script>
+    </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Handbal | Nathanael Dulcianu</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Londrina Solid' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/86bd4324fa.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="firstpage.jpg" type="image/icon type">
+    </head>
+    <body>
+        <div class="titlesection">
+            <h1 class="first-title">HANDBAL</h1>
+        </div>
+        <div class="image-flex-cell">
+            <div class="mySlides fade">
+                <img src="handbal1.jpeg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="handbal2.jpeg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="handbal3.jpeg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="handbal4.jpeg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="handbal5.jpeg" style="width:100%">
+              </div>
+        </div>
+        <p class="description-text"> <span class="important-text">Handbalul</span> este un sport de echipă care se joacă cu o minge, folosindu-se numai mâinile. Meciul are loc între două echipe a <span class="important-text">7 jucători</span> (6 jucători de câmp și un portar) pe durata a <span class="important-text">două reprize a câte 30 de minute</span>. Scopul jocului este de a marca cât mai multe goluri în poarta echipei adverse. Echipa care a marcat mai multe goluri câștigă meciul.
+
+          Este un sport relativ tânăr, apărând în Europa la <span class="important-text">sfârșitul secolului XX și începutul secolului XIX</span>. Originile lui sunt însă mult mai îndepărtate și pot fi găsite în unele jocuri cu caracter popular practicate în Evul Mediu și în jocurile dinamice folosite în școlile din centrul și nordul Europei la începutul secolului XIX. În toate variantele lui, jocul de handbal a apărut mai întâi în școli, în scopuri didactice, rod al imaginației creatoare a unor eminenți profesori de educație fizică. Părintele handbalului modern este considerat a fi profesorul german de educație fizică <span class="important-text">Carl (sau Karl) Schelenz</span>, care a introdus reguli și care a folosit un teren de aceeași mărime cu cel de fotbal. Pe atunci o echipă avea 11 jucători. Se disting și sunt atestate trei rădăcini multinaționale, fiecare cu o variantă nu prea mult deosebită de handbalul consacrat și practicat astăzi. În România handbalul a pătruns în anii 1920 – 1921, imediat după lansarea lui oficială la Berlin în anul 1919 de către profesorul Karl Schelentz. În anul 1921 încep deja meciurile inter-clase în școli, la Sibiu, chiar pe stadionul central, iar din 1922 primele jocuri inter-orașe cu echipe formate din elevi, dar și câțiva absolvenți și chiar profesorii acestora.
+        </p>
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 3000);
+            } 
+            </script>
+    </body>
+</html>

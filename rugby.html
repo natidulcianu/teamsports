@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rugby | Nathanael Dulcianu</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Londrina Solid' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/86bd4324fa.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="firstpage.jpg" type="image/icon type">
+    </head>
+    <body>
+        <div class="titlesection">
+            <h1 class="first-title">RUGBY</h1>
+        </div>
+        <div class="image-flex-cell">
+            <div class="mySlides fade">
+                <img src="rugby.jpg" style="width:100%">
+              </div>
+              
+              <div class="mySlides fade">
+                <img src="rugby1.jpeg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="rugby2.jpeg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="rugby3.jpeg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="rugby4.jpeg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="rugby5.jpeg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="rugby6.jpeg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="rugby7.jpeg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="rugbyball.jpg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="rugbyplayer.jpg" style="width:100%">
+              </div>
+        </div>
+        <p class="description-text"> <span class="important-text">Rugby</span>, scris și <span class="important-text">rugbi</span> (din cuvântul englez rugby, pronunție AFI englezească /'rʌɡbi/, pronunție românească simplificată rágbi), este un sport cu mingea, originar din Anglia. Numele jocului provine de la orașul englez omonim, locul unde s-au formalizat prima dată regulile acestui sport. Mingea cu care se joacă rugby-ul este de <span class="important-text">formă ovală</span>, motiv pentru care sportul mai este uneori numit <span class="important-text">"sportul cu balonul oval"</span>. Cele două variante principale sunt rugby în XV (<span class="important-text">rugby union</span>) și rugby în XIII (<span class="important-text">rugby league</span>).
+            Strămoșul rugbyului este „la soule”, sport practicat pe scară largă în Franța, începând cu perioada Evului Mediu. Varianta originală a sa a fost inventată pe terenului principalului colegiu din orașul Rugby, situat în Anglia. Potrivit legendei, în cursul unui meci de fotbal (care nu trebuie însă confundat cu varianta actuală a sportului desemnat cu acest nume), jucat în anul 1823, <span class="important-text">William Webb Ellis</span>, elev al acestui colegiu și viitor pastor, a luat în brațe balonul și l-a purtat în spatele liniei porții adverse, deși tradiția cerea ca punctele să fie înscrise cu piciorul. În realitate, originile rugbyului sunt ceva mai complexe. În acea perioadă, fiecare dintre colegiile britanice practicau un joc cu balonul derivat din "la soule". Fiecare colegiu avea propriile sale reguli, iar jocul cu piciorul și cu mâna erau destul de răspândite. Gestul lui William Webb Ellis, de a ține balonul în mâini, într-o fază a jocului în care așa ceva nu era permis, a făcut ca regulile colegiului din Rugby să evolueze progresiv.
+        </p>
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 3000);
+            } 
+            </script>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Baschet | Nathanael Dulcianu</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Londrina Solid' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/86bd4324fa.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="firstpage.jpg" type="image/icon type">
+    </head>
+    <body>
+        <div class="titlesection">
+            <h1 class="first-title">BASCHET</h1>
+        </div>
+        <div class="image-flex-cell">
+            <div class="mySlides fade">
+                <img src="baschet1.jpg" style="width:100%">
+              </div>
+              
+              <div class="mySlides fade">
+                <img src="baschet2.jpg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="baschet3.jpg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="baschet4.jpg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="baschet5.jpg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="baschet6.jpg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="baschet7.jpg" style="width:100%">
+              </div>
+        </div>
+        <p class="description-text"> <span class="important-text">Baschetul</span> este unul dintre cele mai răspândite sporturi de echipă din lume; se caracterizează prin <span class="important-text">finețea, precizia și fantezia</span> exercițiilor tehnice și tactice, prin talia înaltă și calitățile fizice deosebite ale sportivilor, toate acestea implicate într-o luptă sportivă care pretinde <span class="important-text">spirit de echipă și de sacrificiu</span>, <span class="important-text">inteligență și rezistență nervoasă</span>.
+            Punctele sunt marcate prin <span class="important-text">aruncarea mingii în coș</span>; echipa care acumulează mai multe puncte la sfârșitul jocului câștigă. Mingea poate fi făcută să înainteze pe teren prin driblare sau pasând-o altor coechipieri. Actele fizice nesportive (fault) sunt penalizate și există restricții asupra modului în care este folosită mingea (încălcări).   
+        </p>
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 3000);
+            } 
+            </script>
+    </body>
+</html>

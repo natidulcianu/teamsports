@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cricket | Nathanael Dulcianu</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Londrina Solid' rel='stylesheet'>
+        <script src="https://kit.fontawesome.com/86bd4324fa.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="firstpage.jpg" type="image/icon type">
+    </head>
+    <body>
+        <div class="titlesection">
+            <h1 class="first-title">CRICKET</h1>
+        </div>
+        <div class="image-flex-cell">
+            <div class="mySlides fade">
+                <img src="cricket1.jpg" style="width:100%">
+              </div>
+              
+              <div class="mySlides fade">
+                <img src="cricket2.jpg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="cricket3.jpg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="cricket4.jpg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="cricket5.jpg" style="width:100%">
+              </div>
+              <div class="mySlides fade">
+                <img src="cricket6.jpg" style="width:100%">
+              </div>
+        </div>
+        <p class="description-text"> <span class="important-text">Crichet-ul (sau cricket)</span> este un sport de echipă foarte popular în Regatul Unit și în țările Commonwealth-ului. Primele mențiuni ale sale datează din secolul al XVI-lea, dar a devenit răspândit din secolul al XVIII-lea, primul meci oficial jucându-se în secolulk al XIX-lea. Astăzi Consiliul Internațional al Cricketului are 105 state membre. Crichetul se joacă între <span class="important-text">2 echipe a câte 11 jucători</span>. În timp ce o echipă bate mingea, încercând să realizeze cât mai multe alergături (în engleză runs), un jucător de la cealaltă echipă aruncă mingea (bowler), făcând asta astfel încât să i-o dea jucătorului care o prinde (din spatele celui care o bate) și împiedicând echipa oponentă să marcheze alergături. După un anumit număr de aruncături, care marchează un <span class="important-text">inning</span>, echipele își schimbă rolurile. Un joc constă dintr-un anumit număr de inning-uri și poate dura până la 5 zile. Forma terenului este ovală (<span class="important-text">cricket field</span>), iar în mijlocul ei se află o fâșie de pământ lungă de 20 metri (<span class="important-text">cricket pitch</span>). Alergăturile se efectuează între construcțiile celor 2 capete ale fâșiei de pământ (numite wicket).Cricketul este oarecum asemănător cu baseball-ul nord-american. Nu trebuie însă confundat cu croquetul, un alt joc sportiv de origine britanică, însă diferit.
+        </p>
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 3000);
+            } 
+            </script>
+    </body>
+</html>
